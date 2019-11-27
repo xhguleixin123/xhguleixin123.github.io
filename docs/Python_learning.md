@@ -1,6 +1,6 @@
 # Python笔记
 
-
+[toc]
 
 ## python基础
 
@@ -54,5 +54,40 @@ print('''line1
 
 
 
-##### Python的字符串
+##### 字节串和字符串
 
+###### bytes
+
+> bytes是以字节为单位的，可以叫字节串。
+
+```python
+# 创建一个空的bytes
+b1 = bytes()
+# 创建一个空的bytes值
+b2 = b''
+# 通过b前缀指定hello是bytes类型的值
+b3 = b'hello'
+print(b3)
+print(b3[0])
+print(b3[2:4])
+# 调用bytes方法将字符串转成bytes对象
+b4 = bytes('我爱Python编程',encoding='utf-8')
+print(b4)
+# 利用字符串的encode()方法编码成bytes，默认使用utf-8字符集
+b5 = "学习Python很有趣".encode('utf-8')
+print(b5)
+```
+
+输出：
+
+```
+b'hello'
+104
+b'll'
+b'\xe6\x88\x91\xe7\x88\xb1Python\xe7\xbc\x96\xe7\xa8\x8b'
+b'\xe5\xad\xa6\xe4\xb9\xa0Python\xe5\xbe\x88\xe6\x9c\x89\xe8\xb6\xa3'
+```
+
+104是h的Unicode编码，\x是十六进制，\xe6是两个16进制，一个16进制是4位bit，两个16进制是一个字节（8bit）
+
+* 可以使用字符串自带的encode()方法来讲字符串转换成字节串。
