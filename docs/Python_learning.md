@@ -119,3 +119,66 @@ Format实现站位
 
 
 
+### 使用list和uple
+
+#### list(列表)
+
+* len(<list>)获取列表元素个数
+
+```python
+classmates = ['Michael','Bob','Tracy']
+len(classmates)
+# 空列表的长度是0
+L = []
+len(L)
+```
+
+* 获取每一位置的元素
+
+```python
+# 获取第一位的元素
+classmates[0]
+# 获取第二位的元素
+classmates[1]
+# 获取最后一位的元素
+classmates[-1]
+# 获取倒数第二位的元素
+classmates[-2]
+```
+
+* append()在列表末尾添加一个元素
+
+```python
+classmates.append('Adsm')
+```
+
+* pop()删除列表元素
+
+```python
+# 删除list末尾的元素
+classmates.pop()
+# 删除指定位置的元素
+classmates.pop(i)
+```
+
+* 替换指定位置的元素
+
+```python
+classmates[1] = 'Sarah'
+```
+
+* 列表中的元素类型可以不同
+
+```python
+L = ['Apple',123,True]
+```
+
+* 列表中套列表（多维数组）
+
+```python
+s = ['python','java',['asp','php'],'scheme']
+
+# 输出多维列表,第3个元素（是一个列表）的第2个元素
+s[2][1]
+```
+
