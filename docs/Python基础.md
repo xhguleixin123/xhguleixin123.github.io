@@ -182,3 +182,10 @@ s = ['python','java',['asp','php'],'scheme']
 s[2][1]
 ```
 
+* insert()在指定位置上插入元素
+
+```python
+# 在序号为1的索引上插入一个元素
+classmates.insert(1,'Jack')
+```
+
