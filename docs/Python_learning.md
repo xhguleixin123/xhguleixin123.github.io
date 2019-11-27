@@ -1,7 +1,5 @@
 # Python笔记
 
-[toc]
-
 
 
 ## python基础
