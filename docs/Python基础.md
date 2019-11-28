@@ -189,3 +189,168 @@ s[2][1]
 classmates.insert(1,'Jack')
 ```
 
+### tuple
+
+> tuple一旦内容确定就无法改变，没有**append()**和**insert()**方法，其他方法和list一样。
+
+* 空的tuple
+
+```python
+t = ()
+```
+
+* 定义只有一个元素的的tuple
+
+```python
+# 括号会被认为是小括号，所以t只是1。
+t = (1)
+# 需要在1后面添加一个，来表示是tuple。
+t = (1,)
+```
+
+* 改变tuple的内容
+
+```python
+t = ('a','b',['A','B'])
+# 因为t当中第三个元素是list，所以可以改变list的指向
+t[2][0] = 'X'
+t[2][1] = 'Y'
+```
+
+###  条件判断
+
+* if语句简写
+
+```python
+# 只要x是非空字符，非零数，非空list就为True,否则为Flase
+if x:
+    print('True')
+```
+
+
+
+* if-else语句
+
+```python
+age = 3
+if age >= 18:
+    print('your age is ' , age)
+    print('adult')
+else:
+    print('your age is', age)
+    print('teenager')
+```
+
+* if-elif (elif是else if 的缩写)，**只要满足一个**就自动忽略后面的判断。
+
+```python
+age = 3
+if age >=18:
+    print('adult')
+elif age >= 6:
+    print('teenager')
+else:
+    print('kid')
+```
+
+### 循环
+
+#### range()
+
+```python
+# 从0到9
+range(10)
+# 从1到10
+range(1,11)
+# 从0到30，步长为5
+range(0,31,5)
+# 从0到-9，步长为-1
+range(0,-10,-1)
+```
+
+#### for-in 循环
+
+```python
+# 遍历list
+names = ['Michael'.'Bob','Tracy']
+for name in names:
+    print(nmae)
+    
+
+# 循环n次    
+for i in range(n+1):
+    print(i+1)
+```
+
+#### break
+
+> 结束整个循环
+
+#### continue
+
+> 提早结束当前循环
+
+### 使用dict和set
+
+#### dict
+
+> dict的键的顺序与添加的顺序无关
+>
+> dict的键唯一
+
+```python
+# list
+names = ['Michael','Bob','Tracy']
+scores = [95,75,85]
+
+# dict 
+d = ['Michael':95,'Bob':75,'Tracy':85]
+
+# 通过键（key）来访问值（Value）
+d['Michael']
+
+# 添加和修改键值的方法
+d['Michael'] = 66 # 修改键值
+d['Jack'] = 88 # 添加键值
+
+# 判断键是否存在
+'Thomas' in d
+d.get('Thomas') # 存在返回True，否则返回False
+d.get('Thomas',-1) # 存在返回True，不存在返回指定的-1
+
+# 删除键值的方法
+d.pop('Bob')
+```
+
+#### set
+
+> set存放不重复的不可变对象！！！
+
+```python
+# 通过list来作为输入集合(会过滤重复项)
+s = set([1,2,3])
+
+# 通过add方法来添加元素(同样会过滤重复项)
+s.add(4)
+
+# 集合的交、并集操作
+s1 = set([1,2,3])
+s2 = set([2,3,4])
+s1 & s2 #交集
+s1 | s2 #并集
+```
+
+
+
+#### 不可变对象
+
+```python
+# liset内部的方法会改变list自身
+a = ['c','b','a']
+a.sort()
+
+# 字符串自身的方法，不改变字符串本身，只返回一个返回值
+a = 'abc'
+b = a.replace('a','A') #a仍然不变，只是返回通过replace方法返回了一个值给b
+```
+
