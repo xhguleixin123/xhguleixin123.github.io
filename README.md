@@ -6,6 +6,10 @@
 
 **邮箱： 18017158729@163.com**
 
+[**github**](https://github.com/xhguleixin123)
+
+[**gitee**](https://gitee.com/xhguleixin123)
+
 ## Recent
 
 ### python学习笔记
