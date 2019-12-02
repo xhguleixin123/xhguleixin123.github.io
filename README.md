@@ -18,6 +18,8 @@
 
 [python函数](/docs/python_note/函数.md)(2019.12.01更新)
 
+[高级特性](/docs/python_note/高级特性.md)(2019.12.02更新)
+
 ### 设计模式笔记
 
 [设计模式入门](/docs/design_patterns_note/设计模式入门.md)(2019.11.28更新)
