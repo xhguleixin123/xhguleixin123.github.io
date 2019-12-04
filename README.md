@@ -26,6 +26,10 @@
 
 [函数式编程](/docs/python_note/函数式编程.md)(2019.12.02更新)
 
+[模块](/docs/python_note/模块.md)(2019.12.04更新)
+
+[面向对象编程](/docs/python_note/面向对象编程.md)(2019.12.04更新)
+
 ### 设计模式笔记
 
 [设计模式入门](/docs/design_patterns_note/设计模式入门.md)(2019.11.28更新)
