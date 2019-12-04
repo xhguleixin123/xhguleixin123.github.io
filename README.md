@@ -14,7 +14,7 @@
 
 [改进A星算法](/docs/graduate_study_progress/改进A星算法.md)(2019.12.03更新)
 
-## Recent
+## 其他学习
 
 ### python学习笔记
 
