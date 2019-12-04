@@ -1,0 +1,108 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
+# 改进A星算法
+
+## 堆优化（ Heap optimization ）
+
+![堆优化图](images\堆优化图.png)
+
+* 每个节点对应一个从0到n的序号
+* 父节点的序号为(int) (n-1)/2
+* 左侧子节点序号为2n+1
+* 右侧子节点序号为2n+2
+
+### HEAP类的属性
+
+#### SortDown()
+
+> 向下遍历，从父节点依次向子节点比较遍历，直到叶子节点，时间复杂度为
+>
+> $\ O(log_2(n+1))$
+
+#### SortUp()
+
+> 向上遍历，从子节点依次向父节点比较遍历，直到顶部节点，时间复杂度为
+>
+> $\ O(log_2(n+1))$
+
+### 改进内容
+
+> A星算法每次需要从openlist中遍历出fcost最小的Node，所以时间复杂度为O(n)
+
+### 改进方法
+
+> 将原来的openlist换成Heap类，最小的fcost的Node就是顶部节点。
+
+## 实验结果
+
+###  3组实验数据
+
+#### 5个障碍物
+
+##### 路径规划
+
+![5个障碍物路径](images\5个障碍物路径.png)
+
+##### 消耗时间
+
+* 堆优化
+
+![5个障碍物堆优化](images\5个障碍物堆优化.png)
+
+* 循环遍历
+
+![5个障碍物循环遍历](images\5个障碍物循环遍历.png)
+
+#### 7个障碍物
+
+##### 路径规划
+
+![7个障碍物路径](images\7个障碍物路径.png)
+
+##### 消耗时间
+
+* 堆优化
+
+![7个障碍物堆优化](images\7个障碍物堆优化.png)
+
+* 循环遍历
+
+![7个障碍物循环遍历](images\7个障碍物循环遍历.png)
+
+#### 9个障碍物
+
+##### 路径规划
+
+![9个障碍物路径](images\9个障碍物路径.png)
+
+##### 消耗时间
+
+* 堆优化
+
+![9个障碍物堆优化](images\9个障碍物堆优化.png)
+
+* 循环遍历
+
+![9个障碍物循环遍历](images\9个障碍物循环遍历.png)
+
+
+
+### 数据对比
+
+| 数据对比 | 5个障碍物 | 7个障碍物 | 9个障碍物 |
+| -------- | --------- | --------- | --------- |
+| 循环遍历 | 16 ms     | 24 ms     | 37 ms     |
+| 堆优化   | 5 ms      | 6 ms      | 9 ms      |
+
+![折线图](images\堆优化和循环遍历结果数据分析.png)
+
