@@ -14,7 +14,7 @@
 
 [改进A星算法](/docs/graduate_study_progress/改进A星算法.md)(2019.12.03更新)
 
-## 其他学习
+## 学习笔记
 
 ### python学习笔记
 
@@ -29,6 +29,10 @@
 ### 设计模式笔记
 
 [设计模式入门](/docs/design_patterns_note/设计模式入门.md)(2019.11.28更新)
+
+## 其他
+
+[学习杂记](/docs/other_learning/学习杂记.md)(2019.12.04更新)
 
 
 
