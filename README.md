@@ -34,6 +34,8 @@
 
 [设计模式入门](/docs/design_patterns_note/设计模式入门.md)(2019.11.28更新)
 
+[UML中的类图及类图之间的关系](/docs/design_patterns_note/UML中的类图及类图之间的关系.md)(2019.12.05更新)
+
 ## 其他
 
 [学习杂记](/docs/other_learning/学习杂记.md)(2019.12.04更新)
