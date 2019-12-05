@@ -36,6 +36,8 @@
 
 [UML中的类图及类图之间的关系](/docs/design_patterns_note/UML中的类图及类图之间的关系.md)(2019.12.05更新)
 
+[面向对象的设计原则](/docs/design_patterns_note/面向对象的设计原则.md)(2019.12.05更新)
+
 ## 其他
 
 [学习杂记](/docs/other_learning/学习杂记.md)(2019.12.04更新)
