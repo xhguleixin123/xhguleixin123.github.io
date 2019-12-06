@@ -10,7 +10,7 @@
     </script>
 </head>
 
-# 改进A星算法
+# A星算法研究
 
 ## 堆优化（ Heap optimization ）
 

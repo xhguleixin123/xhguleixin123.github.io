@@ -12,7 +12,9 @@
 
 ## 读研进展
 
-[改进A星算法](/docs/graduate_study_progress/改进A星算法.md)(2019.12.03更新)
+[A星算法研究](/docs/graduate_study_progress/A星算法研究.md)(2019.12.03更新)
+
+[蚁群算法研究](/docs/graduate_study_progress/蚁群算法研究.md)(2019.12.03更新)
 
 ## 学习笔记
 
