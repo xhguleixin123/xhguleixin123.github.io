@@ -12,9 +12,9 @@
 
 ## 读研进展
 
-[A星算法研究](/docs/graduate_study_progress/A星算法研究.md)(2019.12.03更新)
+[蚁群算法研究](/docs/graduate_study_progress/蚁群算法研究.md)(2019.12.07更新)
 
-[蚁群算法研究](/docs/graduate_study_progress/蚁群算法研究.md)(2019.12.03更新)
+[A星算法研究](/docs/graduate_study_progress/A星算法研究.md)(2019.12.07更新)
 
 ## 学习笔记
 
@@ -31,6 +31,8 @@
 [模块](/docs/python_note/模块.md)(2019.12.04更新)
 
 [面向对象编程](/docs/python_note/面向对象编程.md)(2019.12.04更新)
+
+[面向对象高级编程](/docs/python_note/面向对象高级编程.md)(2019.12.07更新)
 
 ### 设计模式笔记
 
