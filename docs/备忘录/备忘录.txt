@@ -1,0 +1,64 @@
+vechile88ban
+、Sarsa
+19145728437
+Google账号
+g18017158729@gmail.com
+glx1995116
+
+Unity3D和 账号密码
+18017158729@163.com
+Glx13585692776
+
+Github 账号密码
+xhguleixin123
+18017158729@163.com
+Glx1995116
+
+
+Vps账号密码
+18017158729@163.com
+Glx1995116..
+
+VPS服务器
+billing.virmach.com
+Your IP is: 23.94.70.204
+Your Username is: root
+Your Password is: kRH0hOq738SoV7f8kB
+新密码：Glx1995116
+https://www.baishitou.cn/1524.html
+安装各种包用到的命令
+pip install xxx -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
+
+--trusted-host mirrors.aliyun.com
+pip install -upgrade 
+pip install ml-agents-envs
+pip install ml-agnets
+mlagents-learn config/trainer_config.yaml --run-id=<run-identifier> --train
+conda insatll tensorflow
+conda install jupyter notebook
+conda install scikit-learn
+-i https://pypi.doubanio.com/simple
+运行各种环境变量用到的命令
+tensorboard --logdir logs --host=127.0.0.1
+cd ..回到上一级
+cd /d 切换路径
+
+npm
+
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+需要安装msbuild
+npm install -g --production windows-build-tools
+
+
+光标变成黑块，使用insert键改回来，fn + delete
+
+C#资料合集 https://blog.csdn.net/qq_36439293/article/details/82182660
+
+%HOMEDRIVE%%HOMEPATH%
+
+https://xhguleixin123.github.io/learning_note/
+
+https://www.jianshu.com/p/9f71e260925d
+
